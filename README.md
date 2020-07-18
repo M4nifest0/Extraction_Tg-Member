@@ -41,6 +41,53 @@ def printlogo():
                                                                                       
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
+First you need create app on https://my.telegram.org
+api_id = hack4lx
+api_hash = 'hack4lx'
+phone = '+hack4lx'
+limit = 100
+
+✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
+def get_chat_info(username, client):
+    try:
+        chat = client(ResolveUsernameRequest(username))
+    except UsernameNotOccupiedError:
+        print('Chat/channel not found!')
+        sys.exit()
+    result = {
+        'chat_id': chat.peer.channel_id,
+        'access_hash': chat.chats[0].access_hash
+    }
+    return result
+
+
+def dump_users(chat, client):
+    counter = 0
+    offset = 0
+    chat_object = InputChannel(chat['chat_id'], chat['access_hash'])
+    all_participants = []
+    print('Process...')
+    while True:
+        participants = client.invoke(GetParticipantsRequest(
+                    chat_object, ChannelParticipantsSearch(''), offset, limit
+                ))
+        if not participants.users:
+            break
+        all_participants.extend(['{} {}'.format(x.id, x.username)
+                           for x in participants.users])
+        users_count = len(participants.users)
+        offset += users_count
+        counter += users_count
+        print('{} users collected'.format(counter))
+        sleep(2)
+    with open('users.txt', 'w') as file:
+        file.write('\n'.join(map(str, all_participants)))
+
+
+
+✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+
 
 💀 Made by ☠️👊 𝕿𝖍𝖎𝖘 𝕴𝖘 𝕿𝖍𝖊 𝓜4𝓷𝓲𝓯𝓮𝓼𝓽0 𝕿𝖊𝖆𝖒™💪🏴‍☠️
 
