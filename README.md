@@ -4,7 +4,7 @@
 
 # Extraction_Tg-Member
 
-# ![Locations](https://lh3.googleusercontent.com/lE-yVAcjm1rfr2TGIquOJ6vdkIR96VqW9AHPenKfUjjJr5L6kePiy-atQjC8e4kQ_RQ=w412-h220-rw) 
+# ![Locations](https://github.com/attakercyebr/hack4lx_IPTV/blob/master/83837757_2519460388336847_1590182160688480256_n.jpg) 
 
 **********************************************************
 
@@ -12,15 +12,15 @@
 
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
-⚠️ # Read-First:
+⚠️  Read-First:
 
-🔞# The author of the does not encourage anyone to repeat this. Otherwise, you will be solely responsible. The was created for informational purposes. And for the fact that you caution you!🙏
+🔞 The author of the does not encourage anyone to repeat this. Otherwise, you will be solely responsible. The was created for informational purposes. And for the fact that you caution you!🙏
 
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
-#  Description 👀 Extraction_Tg-Member
+  Description 👀 Extraction_Tg-Member
 
-#  Title 📌Extract a member from Telegram | Thanks Please introduce our channel to other friends
+  Title 📌Extract a member from Telegram | Thanks Please introduce our channel to other friends
 
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
@@ -44,16 +44,16 @@ def printlogo():
 
 💀 Made by ☠️👊 𝕿𝖍𝖎𝖘 𝕴𝖘 𝕿𝖍𝖊 𝓜4𝓷𝓲𝓯𝓮𝓼𝓽0 𝕿𝖊𝖆𝖒™💪🏴‍☠️
 
-# Author 🏴‍☠️ hack4lx
+  Author 🏴‍☠️ hack4lx
 
-# Aate ♾ 2020 July
+  Aate ♾ 2020 July
 
-# Version 👁‍🗨 1.0.0
+  Version 👁‍🗨 1.0.0
 
-# Usage 👌 https://my.telegram.org/auth | python3 
+ Usage 👌 https://my.telegram.org/auth | python3 
 
 
-# Channel  Combo List 👍  [![Telegram Chanel](https://img.shields.io/badge/chat%20on-Telegram-blue.svg)](https://t.me/hack4lxCombo)
+ Channel  Combo List 👍  [![Telegram Chanel](https://img.shields.io/badge/chat%20on-Telegram-blue.svg)](https://t.me/hack4lxCombo)
 
 
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
