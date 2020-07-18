@@ -4,7 +4,7 @@
 
 # Extraction_Tg-Member
 
-# ![Locations](https://github.com/attakercyebr/hack4lx_IPTV/blob/master/83837757_2519460388336847_1590182160688480256_n.jpg) 
+# <center>![Locations](https://github.com/attakercyebr/hack4lx_IPTV/blob/master/83837757_2519460388336847_1590182160688480256_n.jpg) </center>
 
 **********************************************************
 
