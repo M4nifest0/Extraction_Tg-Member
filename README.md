@@ -41,15 +41,15 @@ def printlogo():
                                                                                       
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
-First you need create app on https://my.telegram.org
-api_id = hack4lx
-api_hash = 'hack4lx'
-phone = '+hack4lx'
-limit = 100
+    First you need create app on https://my.telegram.org 
+    api_id = hack4lx
+    api_hash = 'hack4lx'
+    phone = '+hack4lx'
+    limit = 100
 
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
-def get_chat_info(username, client):
+    def get_chat_info(username, client):
     try:
         chat = client(ResolveUsernameRequest(username))
     except UsernameNotOccupiedError:
@@ -62,7 +62,7 @@ def get_chat_info(username, client):
     return result
 
 
-def dump_users(chat, client):
+    def dump_users(chat, client):
     counter = 0
     offset = 0
     chat_object = InputChannel(chat['chat_id'], chat['access_hash'])
@@ -83,8 +83,6 @@ def dump_users(chat, client):
         sleep(2)
     with open('users.txt', 'w') as file:
         file.write('\n'.join(map(str, all_participants)))
-
-
 
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
